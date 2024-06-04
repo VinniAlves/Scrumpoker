@@ -1,6 +1,9 @@
 import NavBarHome from "../../../components/NavBarHome"
-
+import ModalRegistrar from "../../../components/Registrar/ModalRegistrar"
 import styles from './Homer.module.css'
+import { createPortal } from "react-dom"
+
+
 function Home(){
     return(
         <>
