@@ -38,8 +38,7 @@ function NavBarHome(){
                 
             </div>
             
-           
-
+        
         </>
     )
 
