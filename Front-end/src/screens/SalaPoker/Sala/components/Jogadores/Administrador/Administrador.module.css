@@ -1,7 +1,5 @@
-.container{
-    width: 55px;
-    height: 55px;
-    background-color: aqua;
-    border-radius: 100%;
-    z-index: 99;
+.container_1{
+    display: flex;
+    width: 100%;
 }
+

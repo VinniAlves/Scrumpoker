@@ -12,6 +12,7 @@
 
     background-color: #3C944F;
     width: 750px;
+    min-width: 750px;
     height: 320px;
     border: 12px solid #5C3232;
     border-radius: 170px;

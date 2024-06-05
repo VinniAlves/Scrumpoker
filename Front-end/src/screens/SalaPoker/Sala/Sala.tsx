@@ -43,9 +43,9 @@ function  Sala(){
             
             <div className={styles.container}>
                 {dadosJogadoresMocados.map((player)=> (
-                    player.admin ? <Administrador/> : <Votante/>
-
-
+                   
+                        player.admin ? <Administrador classId={player.id}/> : <Votante classIdVotante={player.id}/>
+                   
                 ))}
             </div>
         </>

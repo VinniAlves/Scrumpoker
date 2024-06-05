@@ -1,6 +1,6 @@
 .container{
     position:absolute;
+    display: flex;
     top:0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+   
+}
