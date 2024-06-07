@@ -5,11 +5,19 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
+    position: relative;
+    top: 44px;
 }
 
-.backgroundFormato{
-   
+.containerJogadores{
+    position:absolute;
+    display: flex;
+    top:0;
+    text-align: center;
+}
 
+
+.backgroundFormato{
     background-color: #3C944F;
     width: 750px;
     min-width: 750px;

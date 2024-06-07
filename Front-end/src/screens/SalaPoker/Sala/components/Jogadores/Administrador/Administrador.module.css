@@ -1,5 +1,28 @@
 .container_1{
+    position: absolute;
+    left: 338px;
+    z-index: 99;
+    top:-148px;
     display: flex;
-    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
+
+.cabeca{
+    width: 55px;
+    height: 55px;
+    background-color: #FFE9FA;
+    border-radius: 100%;
+    z-index:99;
+}
+
+.corpo{
+    width: 51px;
+    height: 43px;
+    border-radius: 50px 50px 19px 19px;
+    background-color: #d7d7d7;
+    position: absolute;
+    top: 138px;
+}
