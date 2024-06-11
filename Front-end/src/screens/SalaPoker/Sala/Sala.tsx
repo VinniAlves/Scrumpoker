@@ -7,13 +7,10 @@ import styles from './Sala.module.css'
 function  Sala(){
 
     
-
-
-
     return(
         <>
             <Mesa></Mesa>
-            <Cartas/>
+            
         </>
     )
 }

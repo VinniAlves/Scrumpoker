@@ -3,9 +3,10 @@
 
 }
 
-body{
+/* Verificar pois esta matando a aplicacao */
+/* body{
     overflow: hidden;
-}
+} */
 
 .backgroundModal{
     background-color: rgba(127, 128, 129, 0.582);

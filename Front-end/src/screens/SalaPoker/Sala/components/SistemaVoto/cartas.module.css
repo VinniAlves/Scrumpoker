@@ -1,0 +1,54 @@
+.containerMaster{
+    top: 210px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+    margin-bottom: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+
+.backgroundCartas{
+    width: 130px;
+    height: 170px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 1s;
+    
+}
+
+.backgroundCartas:hover{
+        position: relative;
+        background-color: #FFE143;
+        cursor: pointer;
+        transform:  translateY(-30px); 
+}
+
+
+
+.paragrafoTop{
+    position: relative;
+    right: 35%;
+}
+
+.hMid{
+
+}
+
+.paragrafoBottom{
+    position: relative;
+    left: 35%;
+}

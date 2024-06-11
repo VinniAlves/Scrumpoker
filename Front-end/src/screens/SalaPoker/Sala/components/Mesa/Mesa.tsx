@@ -1,5 +1,6 @@
 import Administrador from '../Jogadores/Administrador'
 import Votante from '../Jogadores/Votante'
+import Cartas from '../SistemaVoto'
 import styles from './Mesa.module.css'
 import dadosJogadoresMocados from './dadosJogadores'
 
@@ -25,6 +26,8 @@ function Mesa(){
                     <div className={styles.backgroundForm}></div>
                     <div className={styles.circlesMeioMesa}></div>
                 </div>
+
+                <Cartas />
             </div>
         </>
     )

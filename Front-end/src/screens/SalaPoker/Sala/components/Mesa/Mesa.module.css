@@ -7,6 +7,7 @@
     height: 100vh;
     position: relative;
     top: 44px;
+    flex-direction: column;
 }
 
 .containerJogadores{
@@ -25,6 +26,7 @@
     border: 12px solid #5C3232;
     border-radius: 170px;
     position: relative;
+    min-height: 320px;
 }
 
 .backgroundFormato::before{
