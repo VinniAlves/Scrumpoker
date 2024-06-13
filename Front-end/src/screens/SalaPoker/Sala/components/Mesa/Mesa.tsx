@@ -2,8 +2,8 @@ import Administrador from '../Jogadores/Administrador'
 import Votante from '../Jogadores/Votante'
 import Cartas from '../SistemaVoto'
 import styles from './Mesa.module.css'
-import dadosJogadoresMocados from './dadosJogadores'
-
+import dadosJogadoresMocados from '../../../../../assets/DadosMocados/dadosJogadores'
+import stylesCartas from './modelosCartas.module.css'
 
 function Mesa(){
     
@@ -25,6 +25,22 @@ function Mesa(){
 
                     <div className={styles.backgroundForm}></div>
                     <div className={styles.circlesMeioMesa}></div>
+                    
+                        {dadosJogadoresMocados.map((jogadas)=>(
+                            jogadas.id?
+                                jogadas.admin?  
+                                    null
+                                : 
+                                    <div className={stylesCartas[`containerCartasProntas_${jogadas.id}`]}>
+                                    <div className={stylesCartas.topo}></div>
+                                    <div className={stylesCartas.baixo}></div>
+                            </div>
+                            : <div className={stylesCartas.containerCartasNProntas}></div>
+                        ))
+
+                        }
+                        
+
                 </div>
 
                 <Cartas />

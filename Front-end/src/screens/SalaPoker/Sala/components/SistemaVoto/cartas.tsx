@@ -1,39 +1,43 @@
 import styles from "./cartas.module.css"
+import esquemaVotacao from "../../../../../assets/DadosMocados/esquemaDeVotacao"
 
 function Cartas(){
 
-    const esquemaVotacao =[
-        {
-            "index": 1
-        },
-        {
-            "index": 2
-        },
-        {
-            "index": 3
-        },
-        {
-            "index": 5
-        },
-        {
-            "index": 8
-        }
+    
+    let save:HTMLElement = document.getElementById("")!
+
+    function selecionarCarta(inputButton:number){
         
-    ]
+        const elementTeste: HTMLElement = document.getElementById(`containerBackground_${inputButton}`)!
+        
+        if(elementTeste != save){
+            
+            if(save!=null){
+                save?.setAttribute("style","")
+            }
 
+            save = elementTeste
+            
+            elementTeste?.setAttribute("style","background-color:#FFE143; transform:  translateY(-30px);")
+            
+        }else if (elementTeste == save){
+            save?.setAttribute("style","")
+        }
+    }
 
-
+   
     return(
         <div className={styles.containerMaster}>
             <div className={styles.container}>
 
                 {
                     esquemaVotacao.map((cartas)=>(
-                        <div className={styles.backgroundCartas}>
-                            <p className={styles.paragrafoTop}>{cartas.index}</p>
-                            <h1 className={styles.hMid}>{cartas.index}</h1>
-                            <p className={styles.paragrafoBottom}>{cartas.index}</p>
-                        </div>
+                        
+                            <button id={`containerBackground_${cartas}`} onClick={()=>selecionarCarta(cartas)} className={styles.backgroundCartas}>
+                                <p className={styles.paragrafoTop}>{cartas}</p>
+                                <h1 className={styles.hMid}>{cartas}</h1>
+                                <p className={styles.paragrafoBottom}>{cartas}</p>
+                            </button>
                         
                     ))
                 }

@@ -1,0 +1,118 @@
+.topo{
+    width: 27px;
+    height: 34px;
+    background-color: #FFE143;
+    border: 1px solid white;
+    z-index: 2;
+    position: absolute;
+    border-radius: 2px;
+}
+
+.baixo{
+    position: absolute;
+    width: 27px;
+    height: 34px;
+    background-color: #FFE143;
+    border: 1px solid white;
+    z-index: 1;
+    top: 0;
+    top: 3px;
+    left: 5px;
+    rotate: 345deg;
+    border-radius: 2px;
+}
+
+
+
+.containerCartasProntas_1{
+    position: absolute;
+    left: 537px;
+    top: 10px;
+}
+
+.containerCartasProntas_2{
+    position: absolute;
+    left: 642px;
+    top: 16px;
+    rotate: 36deg;
+}
+.containerCartasProntas_3{
+    position: absolute;
+    left: 709px;
+    top: 70px;
+    rotate: 64deg;
+}
+.containerCartasProntas_4{
+    position: absolute;
+    left: 735px;
+    top: 136px;
+    rotate: 90deg;
+}
+.containerCartasProntas_5{
+    position: absolute;
+    left: 729px;
+    top: 217px;
+    rotate: 121deg;
+}
+.containerCartasProntas_6{
+    position: absolute;
+    left: 671px;
+    top: 286px;
+    rotate: 148deg;
+}
+.containerCartasProntas_7{
+    position: absolute;
+    left: 571px;
+    top: 311px;
+    rotate: 180deg;
+}
+.containerCartasProntas_8{
+    position: absolute;
+    left: 409px;
+    top: 311px;
+    rotate: 180deg;
+}
+.containerCartasProntas_9{
+    position: absolute;
+    left: 247px;
+    top: 311px;
+    rotate: 180deg;
+}
+.containerCartasProntas_10{
+    position: absolute;
+    left: 111px;
+    top: 303px;
+    rotate: 209deg;
+}
+.containerCartasProntas_11{
+    position: absolute;
+    left: 38px;
+    top: 248px;
+    rotate: 246deg;
+}
+.containerCartasProntas_12{
+    position: absolute;
+    left: 12px;
+    top: 164px;
+    rotate: 270deg;
+}
+.containerCartasProntas_13{
+    position: absolute;
+    left: 30px;
+    top: 89px;
+    rotate: 299deg;
+}
+.containerCartasProntas_14{
+    position: absolute;
+    left: 81px;
+    top: 37px;
+    rotate: 326deg;
+}
+.containerCartasProntas_15{
+    position: absolute;
+    left: 179px;
+    top: 10px;
+    rotate: 0deg;
+}
+
+
