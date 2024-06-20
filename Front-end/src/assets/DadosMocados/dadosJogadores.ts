@@ -2,6 +2,12 @@ const dadosJogadoresMocados = [
     {
         "nomeJogador": "Master Gamer Nooob123",
         "admin": true,
+        "id": 0,
+        "Pronto": ""
+    },
+    {
+        "nomeJogador": "Desenvolvedor front-end",
+        "admin": false,
         "id": 1,
         "Pronto": ""
     },
@@ -15,25 +21,25 @@ const dadosJogadoresMocados = [
         "nomeJogador": "Desenvolvedor front-end",
         "admin": false,
         "id": 3,
-        "Pronto": ""
+        "Pronto": true
     },
     {
         "nomeJogador": "Desenvolvedor front-end",
         "admin": false,
         "id": 4,
-        "Pronto": true
-    },
-    {
-        "nomeJogador": "Desenvolvedor front-end",
-        "admin": false,
-        "id": 5,
         "Pronto": false
     },
     {
         "nomeJogador": "Desenvolvedor front-end",
         "admin": false,
-        "id": 6,
+        "id": 5,
         "Pronto": true
+    },
+    {
+        "nomeJogador": "Desenvolvedor front-end",
+        "admin": false,
+        "id": 6,
+        "Pronto": ""
     },
     {
         "nomeJogador": "Desenvolvedor front-end",
@@ -87,12 +93,6 @@ const dadosJogadoresMocados = [
         "nomeJogador": "Desenvolvedor front-end",
         "admin": false,
         "id": 15,
-        "Pronto": ""
-    },
-    {
-        "nomeJogador": "Desenvolvedor front-end",
-        "admin": false,
-        "id": 16,
         "Pronto": ""
     }
 ]

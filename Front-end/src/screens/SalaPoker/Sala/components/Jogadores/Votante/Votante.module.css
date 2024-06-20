@@ -10,7 +10,7 @@
 
 
 
-.container_2{
+.container_1{
     position: absolute;
     left: 500px;
     z-index: 99;
@@ -21,7 +21,7 @@
 }
 
 
-.container_3{
+.container_2{
     position: absolute;
     left: 630px;
     top: -130px;
@@ -31,12 +31,12 @@
     align-items: center;
 }
 
-.container_3 p{
+.container_2 p{
     position: relative;
     left: 21px;
 }
 
-.container_4{
+.container_3{
     position: absolute;
     left: 723px;
     top: -54px;
@@ -46,13 +46,13 @@
     align-items: center;
 }
 
-.container_4 p{
+.container_3 p{
     position: relative;
     left: 85px;
     top: 33px;
 }
 
-.container_5{
+.container_4{
     position: absolute;
     left: 747px;
     top: 50px;
@@ -62,13 +62,13 @@
     align-items: center;
 }
 
-.container_5 p{
+.container_4 p{
     position: relative;
     left: 98px;
     top: 58px;
 }
 
-.container_6{
+.container_5{
     position: absolute;
     left: 723px;
     top: 170px;
@@ -78,13 +78,13 @@
     align-items: center;
 }
 
-.container_6 p{
+.container_5 p{
     position: relative;
     left: 92px;
     top: 83px;
 }
 
-.container_7{
+.container_6{
     position: absolute;
     left: 630px;
     top: 252px;
@@ -94,14 +94,28 @@
     align-items: center;
 }
 
-.container_7 p{
+.container_6 p{
     position: relative;
     left: 38px;
     top: 116px;
 }
-.container_8{
+.container_7{
     position: absolute;
     left: 500px;
+    z-index: 99;
+    top: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_7 p{
+    position: relative;
+    top: 121px;
+}
+
+.container_8{
+    position: absolute;
+    left: 338px;
     z-index: 99;
     top: 270px;
     display: flex;
@@ -115,7 +129,7 @@
 
 .container_9{
     position: absolute;
-    left: 338px;
+    left: 176px;
     z-index: 99;
     top: 270px;
     display: flex;
@@ -129,20 +143,6 @@
 
 .container_10{
     position: absolute;
-    left: 176px;
-    z-index: 99;
-    top: 270px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.container_10 p{
-    position: relative;
-    top: 121px;
-}
-
-.container_11{
-    position: absolute;
     left: 18px;
     top: 255px;
     z-index: 99;
@@ -151,13 +151,13 @@
     align-items: center;
 }
 
-.container_11 p{
+.container_10 p{
     position: relative;
     left: -38px;
     top: 116px;
 }
 
-.container_12{
+.container_11{
     position: absolute;
     left: -86px;
     top: 170px;
@@ -167,13 +167,13 @@
     align-items: center;
 }
 
-.container_12 p{
+.container_11 p{
     position: relative;
     left: -93px;
     top: 83px;
 }
 
-.container_13{
+.container_12{
     position: absolute;
     left: -109px;
     top: 50px;
@@ -183,13 +183,13 @@
     align-items: center;
 }
 
-.container_13 p{
+.container_12 p{
     position: relative;
     left: -98px;
     top: 58px;
 }
 
-.container_14{
+.container_13{
     position: absolute;
     left: -86px;
     top: -54px;
@@ -199,13 +199,13 @@
     align-items: center;
 }
 
-.container_14 p{
+.container_13 p{
     position: relative;
     left: -85px;
     top: 33px;
 }
 
-.container_15{
+.container_14{
     position: absolute;
     left: 7px;
     top: -130px;
@@ -215,12 +215,12 @@
     align-items: center;
 }
 
-.container_15 p{
+.container_14 p{
     position: relative;
     left: -21px;
 }
 
-.container_16{
+.container_15{
     position: absolute;
     left: 137px;
     z-index: 99;

@@ -20,7 +20,7 @@
     color: #FFE143;
 }
 
-.containerUm button{
+.containerUm a{
     
     margin-top: 40px;
     height: 46px;
@@ -30,10 +30,13 @@
     color: white;
     background-color: #FFE143;
     border: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 
 }
 
-.containerUm button:hover{
+.containerUm a:hover{
     background-color: #fddc35;
     cursor: pointer;
 }

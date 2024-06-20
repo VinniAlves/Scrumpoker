@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px
+}
+
+.container input{
+    width: 500px;
+    height: 35px;
+    font-size: 17px;
+    border: 2px solid #C8C8C8;
+    border-radius: 5px;
+    outline-color: #FFE143;
+    padding: 5px 8px 5px 8px;
+}
+
+.container button{
+    width: 520px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    background-color:#FFE143;
+    color: white;
+    border-radius: 5px;
+}
+
+.container button:hover{
+    background-color:#fade54;
+    cursor: pointer;
+}
+
+.inputNomeSala {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputNomeSala p{
+    font-size: 13px;
+    position: relative;
+    background-color: white;
+    top: 22px;
+    width: 67px;
+    left: 23px;
+    padding-left: 1px;
+    padding-right: 1px;
+}

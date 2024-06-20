@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import  Logo from './assets/log.svg'
+import  Logo from '../../assets/Image/log.svg'
 import styles from './NavbarHome.module.css'
 import ModalRegistrar from '../Registrar/ModalRegistrar';
 import { createPortal } from 'react-dom';

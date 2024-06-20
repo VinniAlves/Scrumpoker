@@ -2,10 +2,6 @@ import styles from './ModalRegistrar.module.css'
 
 function ModalRegistrar(){
 
-
-
-
-
     return(
         <>
             <div className={styles.container}>
