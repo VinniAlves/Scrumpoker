@@ -1,7 +1,7 @@
 .container{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    margin-top: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
     padding: 5px 8px 5px 8px;
 }
 
-.container button{
+.ButtonContainer{
     width: 520px;
     height: 40px;
     font-size: 17px;
@@ -28,7 +28,7 @@
     border-radius: 5px;
 }
 
-.container button:hover{
+.ButtonContainer:hover{
     background-color:#fade54;
     cursor: pointer;
 }
@@ -47,4 +47,71 @@
     left: 23px;
     padding-left: 1px;
     padding-right: 1px;
+}
+
+.inputSisVoto{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -35px;
+    
+}
+.inputSisVoto input{
+    cursor: pointer;
+}
+
+.inputSisVoto p{
+    font-size: 13px;
+    position: relative;
+    background-color: white;
+    top: 22px;
+    width: 101px;
+    left: 23px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.SisButton{
+    background-color: white;
+    width: 520px;
+    height: 50px;
+    font-size: 17px;
+    border: 2px solid #C8C8C8;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+
+.SisButton:hover{
+    border-color: #fade54;
+    background-color: white;
+}
+
+.optionMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 520px;
+    border-radius:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 7px -1px;
+    position: relative;
+    top: -83px;
+}
+
+.optionMenu button{
+    height: 45px;
+    width: 520px;
+    border:none;
+    text-align: left;
+    background-color: white;
+    font-size: 15px;
+    
+}
+.optionMenu button:hover{
+    background-color: #fade54;
+    color: white;
+}
+.btnEscolha{
+    color: #fade54;
 }
